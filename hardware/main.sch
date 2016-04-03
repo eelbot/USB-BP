@@ -2669,6 +2669,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="A1" gate="G$1" pin="P$36"/>
 <wire x1="73.66" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
+<label x="76.2" y="22.86" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
