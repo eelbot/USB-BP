@@ -1819,10 +1819,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.524" x2="-0.8636" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0" layer="21" curve="-180"/>
-<text x="-1.9558" y="1.0716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2.5908" y="1.0716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-0.2286" y1="-1.524" x2="0.2286" y2="-1.524" width="0.1524" layer="51"/>
 <wire x1="0.2286" y1="1.524" x2="-0.2286" y2="1.524" width="0.1524" layer="51"/>
-<text x="-1.9558" y="1.0716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-2.5908" y="1.0716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.4702" y="2.875" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.775" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
@@ -2380,7 +2380,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="" value="0.1uF"/>
-<part name="U$1" library="ControllerCard" deviceset="SST25VF080B" device="S2AF"/>
+<part name="U2" library="ControllerCard" deviceset="SST25VF080B" device="S2AF"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="0.22OHM-1/4W-1%(0805)" device="" value="300"/>
@@ -2440,7 +2440,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="GND5" gate="1" x="104.14" y="60.96"/>
 <instance part="R2" gate="G$1" x="104.14" y="71.12" rot="R90"/>
 <instance part="C2" gate="G$1" x="119.38" y="68.58"/>
-<instance part="U$1" gate="G$1" x="175.26" y="25.4"/>
+<instance part="U2" gate="G$1" x="175.26" y="25.4"/>
 <instance part="SUPPLY6" gate="G$1" x="154.94" y="38.1"/>
 <instance part="GND6" gate="1" x="154.94" y="12.7"/>
 <instance part="R3" gate="G$1" x="50.8" y="101.6" rot="R180"/>
@@ -2468,7 +2468,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="20.32" y="86.36"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <wire x1="157.48" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="35.56" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
@@ -2535,7 +2535,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="104.14" y="66.04"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="157.48" y1="17.78" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="17.78" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
@@ -2602,7 +2602,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="SPICLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
+<pinref part="U2" gate="G$1" pin="SCK"/>
 <wire x1="157.48" y1="30.48" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
 <label x="154.94" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2614,7 +2614,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="SPISIMO" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SI"/>
+<pinref part="U2" gate="G$1" pin="SI"/>
 <wire x1="157.48" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="154.94" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2626,7 +2626,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="SPISOMI" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SO"/>
+<pinref part="U2" gate="G$1" pin="SO"/>
 <wire x1="157.48" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="154.94" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2638,7 +2638,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="!SPIEN!" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!CE!"/>
+<pinref part="U2" gate="G$1" pin="!CE!"/>
 <wire x1="157.48" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="154.94" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2650,7 +2650,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="!SPIWP!" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!WP!"/>
+<pinref part="U2" gate="G$1" pin="!WP!"/>
 <wire x1="193.04" y1="35.56" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 <label x="195.58" y="35.56" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -2662,7 +2662,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="!SPIHOLD!" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!HOLD!"/>
+<pinref part="U2" gate="G$1" pin="!HOLD!"/>
 <wire x1="193.04" y1="33.02" x2="195.58" y2="33.02" width="0.1524" layer="91"/>
 <label x="195.58" y="33.02" size="1.016" layer="95" xref="yes"/>
 </segment>
