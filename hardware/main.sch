@@ -2575,8 +2575,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="33.02" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <label x="30.48" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="UBSMON" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="124.46" x2="71.12" y2="127" width="0.1524" layer="91"/>
