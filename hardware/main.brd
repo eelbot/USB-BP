@@ -162,7 +162,7 @@
 <text x="26.67" y="5.08" size="0.8128" layer="21" font="vector">Albert Jansen
 USB Booster Pack
 April 2016
-Version 1</text>
+Version 2</text>
 </plain>
 <libraries>
 <library name="EAGLE_BoosterPack_Library">
