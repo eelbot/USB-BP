@@ -815,7 +815,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.9395" y="17.018" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALE" value="1k" x="21.59" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="300" x="12.7" y="15.24" smashed="yes" rot="R90">
+<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="12.7" y="15.24" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="RES-08380" x="12.7" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.2395" y="17.018" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALE" value="1k" x="12.7" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>

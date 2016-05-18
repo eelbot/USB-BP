@@ -2229,7 +2229,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="PTH" value="USB-B"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-5%(PTH)" device="" value="1.5k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-5%(PTH)" device="" value="300"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-5%(PTH)" device="" value="330"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="U1" library="ControllerCard" deviceset="LM3940" device="SOT223"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

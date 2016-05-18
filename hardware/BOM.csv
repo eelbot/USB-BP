@@ -1,0 +1,11 @@
+Part Name,Package,Quantity,Digikey Part Number
+"2x10 0.1"" Female Headers",PTH,2,S6106-ND
+"2x3 0.1"" Female Headers",PTH,1,609-3234-ND
+"2 Pin  0.1"" Female Jumper",N/A,2,3M9580-ND
+3mm Blue LED (2mA),PTH,1,754-1914-ND
+330 Resistor,805,1,RMCF0805JT330RCT-ND
+1.5k Resistor,805,1,RMCF0805JT1K50TR-ND
+"1x2 0.2"" Screw Terminal",PTH,2,ED2609-ND
+"1x4 0.2"" Screw Terminal",PTH,4,ED2611-ND
+5V-3.3V LDO,SOT223,1,LM3940IMPX-3.3/NOPBCT-ND
+USB Female Socket,PTH,1,ED2982-ND 
